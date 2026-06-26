@@ -1,0 +1,23 @@
+ttkbootstrap
+pdfplumber
+langdetect
+transformers
+python-docx
+pillow
+opencv-python
+pytesseract
+numpy
+multiprocessing-logging
+requests
+paddleocr==2.6.1.2
+paddlepaddle-gpu==2.5.2 ; platform_system=="Windows"
+marshmallow
+decorator
+scikit-image
+lmdb==1.2.1
+visualdl
+beautifulsoup4
+premailer
+openpyxl
+attrdict
+PyMuPDF<1.21.0

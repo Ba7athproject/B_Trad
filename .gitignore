@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environnements virtuels
+venv/
+venv-*/
+env/
+ENV/
+
+# Variables d'environnement et secrets locaux
+.env
+.env.local
+.env.*.local
+.secret
+secrets.json
+
+# Fichiers de logs
+*.log
+ba7ath_traduction.log
+traduction_ollama.log
+
+# Fichiers binaires lourds (Whl, modèles, etc.)
+*.whl
+*.pt
+*.pth
+*.onnx
+
+# Fichiers générés par l'application (JSON intermédiaires)
+*.struct.json
+*.trad.json
+*.corrige.json
+*.progress
+
+# Fichiers documentaires locaux et tests
+*.pdf
+*.docx
+TestGPT.pdf
+
+# Dossiers temporaires et images de sortie
+images_temp_bht/
+trash/
+output_test-*.png
+page_*_bht.png
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
