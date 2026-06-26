@@ -9,15 +9,15 @@ pytesseract
 numpy
 multiprocessing-logging
 requests
-paddleocr==2.6.1.2
-paddlepaddle-gpu==2.5.2 ; platform_system=="Windows"
+paddleocr
+paddlepaddle-gpu>=2.6.0 ; platform_system=="Windows"
 marshmallow
 decorator
 scikit-image
-lmdb==1.2.1
+lmdb
 visualdl
 beautifulsoup4
 premailer
 openpyxl
 attrdict
-PyMuPDF<1.21.0
+PyMuPDF
